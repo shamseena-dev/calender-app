@@ -1,0 +1,117 @@
+body{
+	margin:auto;
+	text-align: center;
+	justify-content: center;
+	font-family: Arial;
+}
+#app{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width:auto;
+	height:auto;
+}
+#app>h1{
+	color:#133337;
+	font-size: 25px;
+}
+#container{
+	width:auto;
+	height:auto;
+	color:red;
+	border:2px solid #061011;
+	padding:10px 20px 5px 20px;
+}
+
+#headerDiv{
+	width:auto;
+	height:80px;
+	font-size:30px;
+	padding:10px;
+	color:brown;
+	font-family: Arial;
+}
+
+
+.collection-item{
+
+	color:brown;
+}
+#addForm{
+	width:300px;
+	height:200px;
+	padding:20px;
+
+}
+
+#datesTable>table>tr>td{
+	border:2px solid grey;
+	padding:20px;
+	font-size:20px;
+
+}
+td a{
+	color:#1a454a;
+}
+#datesTable tr:first-child{
+	background-color: #1a454a;
+	color:white;
+}
+#datesTable>table>tr a:hover{
+	box-shadow:2px 1px brown;
+}
+
+#datesTable>table>tr>td p{
+	font-size:13px;
+	padding:2px;
+	color: red;
+}
+
+.eventWindowDiv{
+	display: none;
+
+}
+.flexContainer{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.display{
+	display:block;
+	border:2px solid grey;
+}
+
+.close{
+	display: none;
+}
+.eventWindowDiv{
+	width:auto;
+	height:auto;
+}
+.eventList li{
+	list-style-type: square;
+	padding-left:2px;
+	margin-left: 0px;
+}
+
+.eventWindowDiv #addForm input{
+	font-size:20px;
+	height:auto;
+	border-radius: 2px;
+	padding:10px;	
+}
+.eventWindowDiv #addForm #first input{
+	
+}
+.eventWindowDiv #addForm #second input{
+	background-color: #1a454a;
+	color:white;
+}
+.eventListForm input{
+	font-size:20px;
+	height:auto;
+	background-color: #1a454a;
+	padding:20px;
+	color:white;
+}

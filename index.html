@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Calender App</title>
+</head>
+<body>
+  <div class="flexContainer">
+	<div id="app">
+		<h1> Calender For This Month </h1>
+			<div id="container">
+				<div id="headerDiv">
+			
+				</div>
+				<div id="datesTable">
+				</div>
+			</div>
+	</div>
+	<!--display only when clicked on a Date-->
+	<div class="eventWindowDiv">
+	 <h2> Add Events </h2>
+	 <form id="addForm">
+		<div id="first"><input type="text" name="event" id="event" placeholder="New event">
+		</div>
+	    
+	    <div id="second"> <input type="submit" value="Add Event">
+	    </div>
+	  </form>	
+	 
+	 <div class="eventListForm">
+	 	<form id="form2">
+	 	<ul class="eventList"></ul>
+	 	<input type="submit" value="close">
+	    </form>
+
+	 </div>
+	 </div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script2.js"></script>
+
+
+
+</body>
+</html>
